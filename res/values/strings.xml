@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">FoodSelect</string>
+    <string name="action_settings">Configuración</string>
+    <string name="lblBienvenido">Bienvenido! Pulse el botón \"Ingresar\" para ir a la sección de selección de Menús.</string>
+    <string name="lblIngresar">Ingresar</string>
+    <string name="lblSalir">Salir</string>
+    <string name="lblAdvertenciaInternet">(*) Recuerde que para conectar con el servidor, debe poseer conexión a Internet.</string>
+    <string name="lblAcercaDe">Acerca de</string>
+    <string name="lblFormulario">Formulario</string>    
+    <string name="nombreDelProyecto">Nombre Del Proyecto:</string>
+    <string name="lblAutor">Autor:</string>
+    <string name="lblLicencia">Licencia:</string>
+    <string name="lblAutorRespuesta">Augusto Jair</string>
+    <string name="lblLicenciaRespuesta">CC GPL 3.0</string>
+    <string name="lblEmail">E-Mail:</string>
+    <string name="lblEmailRespuesta"><a href="mailto:augustojair_96@hotmail.com">augustojair_96@hotmail.com</a></string>
+    <string name="lblDescripcionRespuesta">Este software, fue diseñado para la gestión de menús de un comedor (implementado plato principal y opción) y trabaja a través de la plataforma de Google Drive. Para su implementación en cualquier medio, se debe modificar el &quot;WebView&quot; para que localice el formularo deseado.</string>
+    <string name="lblRegresar">Regresar</string>
+    <string name="lblSitioWebRespuesta"><a href="https://github.com/augustojair/FoodSelect">github.com/augustojair/FoodSelect</a></string>
+    <string name="lblUrl">http://goo.gl/FGSnoY</string>
+    <string name="lblModificar">Modificar</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.04" >
+
+        <TextView
+            android:id="@+id/txtvNombreDelProyecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/nombreDelProyecto" />
+
+        <TextView
+            android:id="@+id/txtvAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvNombreDelProyecto"
+            android:layout_below="@+id/txtvNombreDelProyecto"
+            android:layout_marginTop="26dp"
+            android:text="@string/lblAutor" />
+
+        <TextView
+            android:id="@+id/txtvLicencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvAutor"
+            android:layout_below="@+id/txtvAutor"
+            android:layout_marginTop="25dp"
+            android:text="@string/lblLicencia" />
+
+        <TextView
+            android:id="@+id/txtvNombreDelProyectoRespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvNombreDelProyecto"
+            android:layout_alignBottom="@+id/txtvNombreDelProyecto"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="27dp"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/txtvAutorRespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvAutor"
+            android:layout_alignBottom="@+id/txtvAutor"
+            android:layout_alignRight="@+id/txtvNombreDelProyectoRespuesta"
+            android:text="@string/lblAutorRespuesta" />
+
+        <TextView
+            android:id="@+id/txtvLicenciaRespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtvLicencia"
+            android:layout_alignBottom="@+id/txtvLicencia"
+            android:layout_alignLeft="@+id/txtvAutorRespuesta"
+            android:text="@string/lblLicenciaRespuesta" />
+
+        <TextView
+            android:id="@+id/txtvDEscripcionRespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvSitioWeb"
+            android:layout_alignRight="@+id/txtvAutorRespuesta"
+            android:layout_below="@+id/txtvSitioWeb"
+            android:layout_marginTop="20dp"
+            android:text="@string/lblDescripcionRespuesta" />
+
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvLicencia"
+            android:layout_below="@+id/txtvLicencia"
+            android:layout_marginTop="23dp"
+            android:text="@string/lblEmail" />
+
+        <TextView
+            android:id="@+id/txtvSitioWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblEmail"
+            android:layout_alignRight="@+id/txtvAutorRespuesta"
+            android:layout_below="@+id/lblEmail"
+            android:layout_marginTop="24dp"
+            android:text="@string/lblSitioWebRespuesta" />
+
+        <TextView
+            android:id="@+id/lblEmailRespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtvSitioWeb"
+            android:layout_alignRight="@+id/txtvLicenciaRespuesta"
+            android:text="@string/lblEmailRespuesta" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvDEscripcionRespuesta"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:text="@string/lblRegresar" />
+
+    </RelativeLayout>
+
+</LinearLayout>
